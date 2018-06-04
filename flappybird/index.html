@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @font-face {
+                font-family: 'FlappyFont';
+                src: url('fonts/FlappyFont.ttf');
+            }
+
+            body {
+                padding-top: 40px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="game"></canvas>
+
+        <audio id="fly-sound" src="sounds/fly.wav"></audio>
+        <audio id="die-sound" src="sounds/die.wav"></audio>
+        <audio id="win-sound" src="sounds/win.wav"></audio>
+    
+        <script src="js/matter.js"></script>
+        <script src="js/utils.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
